@@ -12,14 +12,26 @@ The "trolley problem" is typically a philosophical and ethical thought experimen
    - Mechanisms for switching tracks (e.g., levers, gears).
    - Sensors to detect objects on the tracks and simulate decision-making.
    - Actuators to move the trolley based on inputs.
-
-2. **Mechanics of Scheme Language**  
+   - 
+```plaintext
+                         START
+                           |
+                ------------------------
+               |                        |
+         Switch Track               Do Nothing
+               |                        |
+       ----------------          ----------------
+      |                |        |                |
+  Save group      2. **Mechanics of Scheme Language**  
    Here, the problem could be modeled programmatically using a schema or algorithmic language to describe decisions:  
    - Define "tracks" as graph nodes and "switches" as edges.
    - Write rules to simulate decisions: If switch is toggled, follow one path or another.
    - Use logic or probabilistic programming to simulate and resolve ethical choices.  
 
-   Example languages: UML, Prolog, or State Machines.
+   Example languages: UML, Prolog, or State Machines. 1  Save 1       Sacrifice group
+
+```
+
 
 3. **Environment of PsychoPy**  
    PsychoPy, a tool for psychology experiments, can be used to simulate the trolley problem in a psychological context:  
